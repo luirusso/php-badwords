@@ -1,3 +1,8 @@
+<form method="get" action="">
+    <input type="text" placeholder="Inserire la parola da censurare" name="badWord" id="">
+    <input type="submit" id="">
+</form>
+
 <?php
 
 $test = '"Hello world this is my first try at PHP"';
