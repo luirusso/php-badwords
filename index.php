@@ -1,14 +1,14 @@
 <?php
 
-$prova = 'Hello world this is my first try at PHP';
-echo $prova;
+$test = 'Hello world this is my first try at PHP';
+echo $test;
 echo '<br>';
-echo strlen($prova);
+echo strlen($test);
 
 echo '<br>';
-$censura = $_GET["censura"];
-echo $risultato = str_replace($censura, '***', $prova);
+$badWord = $_GET["badWord"];
+echo $result = str_replace($badWord, '***', $test);
 echo '<br>';
-echo strlen($risultato);
+echo strlen($result);
 
 ?>
